@@ -1,0 +1,92 @@
+html{
+        scroll-behavior: smooth;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        overflow-x: hidden;
+      }
+
+      .martop{
+        margin-top: 5rem !important;
+      }
+      
+      .purple{
+        background: linear-gradient(150deg, #f731db, #4600f1 100%);
+      }
+      
+      .my-jumbotron{
+        padding-top: 4rem !important;
+        margin-bottom: 7rem !important;
+      }
+      
+      *{
+        font-family: 'Poppins', sans-serif;
+      }
+
+      #template{
+        width: 60%;
+      }
+      
+      #content{
+        display: none;
+      }
+      
+      #loading {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        min-height: 100vh;
+      }
+
+      #testimoni .card{
+        font-size: 0.9em;
+        text-align: justify;
+      }
+
+      @media screen and (max-width:992px){
+        .martop{
+          margin-top: 2rem !important;
+        }
+
+        #template{
+          width: 80%;
+        }
+      }
+    
+      @media screen and (max-width:768px){
+        .my-jumbotron{
+          padding-top: .25rem !important;
+          padding-bottom: .25rem !important;
+          margin-bottom: 3rem !important;
+        }
+
+        #template{
+          width: 85%;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        
+        .features .col-md-4{
+          width: 50%;
+        }
+        
+        .martop{
+          margin-top: .5rem !important;
+        }
+        
+        .tutorial{
+          margin-left: auto;
+          margin-right: auto;
+        }
+        
+        .tutorial .card{
+          width: 100%; 
+          margin-bottom: 1rem;
+        }
+
+        #testimoni .card{
+          margin: 0.5rem;
+        }
+      }
