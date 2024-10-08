@@ -69,7 +69,7 @@ let searchParams = new URLSearchParams(window.location.search)
       "--------------------%0a"+
       "*Mohon tunggu respon dari kami"
 
-      window.location.href = "https://api.whatsapp.com/send?phone=6289513427663&text="+text;
+      window.location.href = "https://api.whatsapp.com/send?phone=6285725489277&text="+text;
     })
 
     autosize($('textarea'));
